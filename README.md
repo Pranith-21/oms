@@ -1,15 +1,27 @@
-Our application is called Order
-Management Systems (OMS), which is the one-stop
-destination for buying and selling stocks. We are
-developing the application using Angular Frontend,
-Java Spring Backend, and MariaDB as the database.
-The application performs basic activities like user
-registration, user login/logoff, placing orders for
-stocks, and canceling orders for stocks. Indian Stock
-Exchange (NSE) works like this application, but here
-the operations are mainly focused on keeping the
-database in mind. We thought of using procedures in
-Mariadb to perform all the operations. The procedures
-in DB are responsible for executing the orders based
-on order availability and timestamp of order creation
-in a First Come First Serve (FCFS) manner.
+# Oms
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
